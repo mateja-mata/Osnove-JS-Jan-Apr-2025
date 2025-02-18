@@ -1,0 +1,60 @@
+h1{
+    font-size: 42px;
+    color: brown;
+ 
+}
+p{
+    background-color: lightgreen;
+    text-align: right;
+    width: 400px;
+}
+
+.zeleno{
+    border: 2px solid green;
+}
+p.zeleno{
+    text-align: center;
+
+}
+/*KADA KORISTIMO # TO ZNACI DA GADJAMO SAMO ODREDJENI ELEMENT SA TIM ID-EM*/
+#mypar{
+    text-align: left;
+    font-size: 36px;
+    color: brown;
+}
+#mypar2{
+    text-align: center;
+    color: blue;
+}
+
+/*Kod inline elemenata ne mozemo da menjamo sirinu jer je ona koliki je tekst*/
+a{
+    width: 200px;
+    display: inline-block;
+
+}
+div{
+    border: 1px dashed blue;
+    display: inline-block;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
+.red{
+    background-color: red;
+}
+.orange{
+    background-color: orange;
+}
+.purple{
+    background-color: purple;
+}
+
+div{
+    background-color: aqua;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: brown;
+}
