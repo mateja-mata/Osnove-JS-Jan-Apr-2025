@@ -50,7 +50,7 @@ console.log(str.includes("Softuni")); //FALSE
 //2 - substring(startIndex, endIndex = null)
 //3 - substr(startIndex, length) - (DEPRECATED!) - ODBACENA METODA
 
-// Metoda slice() : Izvlaci podsting (od indeksta startIndex don indeksa endIndex, ne uklucujuci endIndex) i vraca podstring
+// Metoda slice() : Izvlaci podsting (od indeksta startIndex do indeksa endIndex, ne uklucujuci endIndex) i vraca podstring
 // Parametri mogu da budu negativne vrednosti - SA DESNA NA LEVA
 // str = "SoftUniRSSoft"
 let str4 = str.slice(4, 7); // "Uni"

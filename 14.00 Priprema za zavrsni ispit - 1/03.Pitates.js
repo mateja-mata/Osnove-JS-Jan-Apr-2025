@@ -48,6 +48,7 @@ function solve (arr){
     }
 
     //3) ISPIS
+    console.log(cities)
     let remainingCities = Object.keys(cities);
 
     if(remainingCities.length>0){
