@@ -14,7 +14,7 @@ function solve(arr){
             let digitPattern= /\d/g;
             let alldigits = barcode.match(digitPattern);
             if(alldigits){
-                productGroup = alldigits.join('');
+                productGroup = alldigits.join("");
             } else {
                 productGroup = "00";
             }
